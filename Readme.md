@@ -10,17 +10,17 @@ between pictures taken during the day and pictures taken during the night.
 Both scripts assume that the data is all in a root folder, with each subfolder
 (being a label) containing images. Ex.
 
-`
-images/
-   day/
-      image1.png
-      image2.png
-      ...
-   night/
-      image1.png
-      image2.png
-      ...
-`
+
+images/<br>
+   day/<br>
+      image1.png<br>
+      image2.png<br>
+      ...<br>
+   night/<br>
+      image1.png<br>
+      image2.png<br>
+      ...<br>
+
 
 ### Feature computing
 
