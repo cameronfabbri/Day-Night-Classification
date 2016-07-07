@@ -12,14 +12,14 @@ Both scripts assume that the data is all in a root folder, with each subfolder
 
 
 images/<br>
-   day/<br>
-      image1.png<br>
-      image2.png<br>
-      ...<br>
-   night/<br>
-      image1.png<br>
-      image2.png<br>
-      ...<br>
+--- day/<br>
+------ image1.png<br>
+------ image2.png<br>
+------ ...<br><br>
+--- night/<br>
+------ image1.png<br>
+------ image2.png<br>
+------ ...<br>
 
 
 ### Feature computing
