@@ -98,7 +98,7 @@ if __name__ == "__main__":
    # checking for model
    if os.path.isfile("neural_model.pkl"):
       print "Using previous model..."
-      trainer = open("neural_model.pkl", "rb")
+      trainer = pickle.load(open("neural_model.pkl", "rb"))
    else:
       print "Training"
       trainer = BackpropTrainer(net, train_ds, momentum=0.1, verbose=True, weightdecay=0.01)

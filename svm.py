@@ -58,7 +58,7 @@ if __name__ == "__main__":
    # checking for model
    if os.path.isfile("svm_model.pkl"):
       print "Using previous model..."
-      svm = open("svm_model.pkl", "rb")
+      svm = pickle.load(open("svm_model.pkl", "rb"))
    else:
       print "Fitting"
 
