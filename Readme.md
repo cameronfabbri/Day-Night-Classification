@@ -37,8 +37,8 @@ both resizing the images to 30x30.
 
 ### Usage
 
-`python neural.py images/`
-`python svm.py images/`
+`python neural.py images/`<br>
+`python svm.py images/`<br>
 
 `neural_model.pkl` and `svm_model.pkl` respectively will be saved to the
 same directory and loaded automatically if it is detected.
